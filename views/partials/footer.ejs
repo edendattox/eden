@@ -1,0 +1,63 @@
+<footer>
+    <div class="footer-animation">
+    <div class="footer-design">
+        <p class="temp7-para">DESIGNED BY EDEN</p>
+    </div>
+
+    <div class="footer2-design">
+        <p class="temp8-para">LIKE MY WORK</p>
+    </div>
+
+    <div class="footer3-design">
+        <p class="temp9-para">FOLLOW ME</p>
+    </div>
+
+    <div class="footer4-design">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-dribbble-square"></i>
+        <i class="fab fa-facebook-f"></i>
+    </div>
+
+    <div class="footer5-design">
+          <p>Copyright ⓒ 2021</p>
+   </div>
+    </div>
+</footer>
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    let tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".footer-animation",
+            scrub: 2,
+            start: "top center",
+            end: "top top",
+            pin: true
+        }});
+
+     
+    let tl1 = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".text2",
+            scrub: 2,
+            start: "top center",
+            end: "top top",
+            pin: true
+        }});
+
+    tl.fromTo(".footer-design", {x: -1600}, {x: 0, duration: 3});
+    tl.fromTo(".footer2-design", {x: 1600}, {x: 0, duration: 3});
+    tl.fromTo(".footer3-design", {x: -1600}, {x: 0, duration: 3});
+    tl.fromTo(".footer4-design", {x: 1600}, {x: 0, duration: 3});
+
+    gsap.fromTo(".nav-design", {y: 1200 }, {y: 0, duration: 9, ease: "elastic",});
+    gsap.fromTo(".text", {opacity: 0, repeat: -1, repeatDelay: 15 }, {opacity: "100%", duration: 8, repeat: -1, repeatDelay: 15});
+    tl1.fromTo(".text2", {x: 600, }, {x: 0, duration: 4});
+ </script>
+
+
+</body>
+</html>
+
+<!-- scrollTrigger: {trigger: ".text2", markers: true, start: "top center", end: "top top", pin: true} -->
