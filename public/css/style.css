@@ -1,6 +1,4 @@
- 
- 
- * {
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -23,7 +21,7 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #222831;
-  font-family: 'poppins' , sans-serif;
+  font-family: "poppins", sans-serif;
   width: 565%;
 }
 
@@ -38,7 +36,6 @@ nav {
 }
 
 .nav-link {
- 
   display: flex;
   justify-content: space-around;
   width: 30%;
@@ -54,141 +51,136 @@ nav {
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 14px;
-  
 }
 
 a:hover {
   color: #ffe2e2;
 }
 
-  h1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-    font-size: 220px;
-    width: 8em;
-    letter-spacing: 40px;
-    color: #b6b6b6;
-  }
-  
-  p{
-    text-align: center;
-    font-size: small;
-    letter-spacing: 2px;
-  }
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  font-size: 220px;
+  width: 8em;
+  letter-spacing: 40px;
+  color: #b6b6b6;
+}
 
-  .middle-container {
-    color: #222831;
-    padding: 80px;
-    display: inline-block;
-    margin-top: 200px;
-    width: 90%;
-  }
+p {
+  text-align: center;
+  font-size: small;
+  letter-spacing: 2px;
+}
 
-  .img1 {
-    height: 1020px;
-    width: 720px;
-  }
+.middle-container {
+  color: #222831;
+  padding: 80px;
+  display: inline-block;
+  margin-top: 200px;
+  width: 90%;
+}
 
-  img:hover {
-    opacity: 0.3;
-    cursor: pointer;
-  }
+.img1 {
+  height: 1020px;
+  width: 720px;
+}
 
-  .design1 {
-    display:inline-block
-  }
-  .design1-text {
-    display: block;
-    margin-left: 50%;
-    position: absolute;
-    top: 1020px;
-    margin-right: 30%;
-    
-  }
+img:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
 
-  .temp1 {
-    font-size: 180px
+.design1 {
+  display: inline-block;
+}
+.design1-text {
+  display: block;
+  margin-left: 50%;
+  position: absolute;
+  top: 1020px;
+  margin-right: 30%;
+}
 
-  }
-  .temp1-para {
-    margin-right: 100px;
-  }
+.temp1 {
+  font-size: 180px;
+}
+.temp1-para {
+  margin-right: 100px;
+}
 
-  hr {
-    margin-bottom: 10px;
-  }
+hr {
+  margin-bottom: 10px;
+}
 
-  .img2 {
-    height: 850px;
-    width: 700px;
-    flex: right;
-  }
+.img2 {
+  height: 850px;
+  width: 700px;
+  flex: right;
+}
 
-  .design2 {
-    margin-top: 300px;
-    margin-left: 67%;
-   }
+.design2 {
+  margin-top: 300px;
+  margin-left: 67%;
+}
 
-  .design2-text {
-   display: block;
-   margin-right: 50%;
-   position: absolute;
-   right: 100px;
-   top: 2350px;
-   margin-left: 30%;
-  }
+.design2-text {
+  display: block;
+  margin-right: 50%;
+  position: absolute;
+  right: 100px;
+  top: 2350px;
+  margin-left: 30%;
+}
 
-  .temp2 {
-    font-size: 180px;
-  }
+.temp2 {
+  font-size: 180px;
+}
 
-  .vid1 {
-    height: 800px;
-    width: 600px;
-  }
+.vid1 {
+  height: 800px;
+  width: 600px;
+}
 
-  .design3 {
-    display:inline-block;
-    margin-top: 300px;
-    
-  }
-  .design3-text {
-    display: block;
-    margin-left: 50%;
-    position: absolute;
-    top: 3330px;
-    margin-right: 30%;
-  }
+.design3 {
+  display: inline-block;
+  margin-top: 300px;
+}
+.design3-text {
+  display: block;
+  margin-left: 50%;
+  position: absolute;
+  top: 3330px;
+  margin-right: 30%;
+}
 
-  .temp3 {
-    font-size: 180px;
-  }
+.temp3 {
+  font-size: 180px;
+}
 
-  
-  .img4 {
-    height: 850px;
-    width: 700px;
-    flex: right;
-  }
+.img4 {
+  height: 850px;
+  width: 700px;
+  flex: right;
+}
 
-  .design4 {
-    margin-top: 300px;
-    margin-left: 67%;
-   }
+.design4 {
+  margin-top: 300px;
+  margin-left: 67%;
+}
 
-  .design4-text {
-   display: block;
-   margin-right: 50%;
-   position: absolute;
-   right: 100px;
-   top: 4520px;
-   margin-left: 30%;
-  }
+.design4-text {
+  display: block;
+  margin-right: 50%;
+  position: absolute;
+  right: 100px;
+  top: 4520px;
+  margin-left: 30%;
+}
 
-  .temp4 {
-    font-size: 180px;
-  }
+.temp4 {
+  font-size: 180px;
+}
 
 .img5 {
   height: 700px;
@@ -201,7 +193,7 @@ a:hover {
 }
 
 .text2 {
-  writing-mode: vertical-rl; 
+  writing-mode: vertical-rl;
   text-align: center;
   margin-bottom: 20px;
   vertical-align: text-top;
@@ -219,43 +211,42 @@ a:hover {
 }
 
 .design5-text {
-    display: block;
-    margin-right: 30%;
-    position: absolute;
-    right: 100px;
-    top: 5550px;
-    margin-left: 0%;
-    padding-left: 0%;
-    width: 12%;
- }
+  display: block;
+  margin-right: 30%;
+  position: absolute;
+  right: 100px;
+  top: 5550px;
+  margin-left: 0%;
+  padding-left: 0%;
+  width: 12%;
+}
 
- .img6 {
-   height: 1000px;
-   width: 950px;
-   margin-left: 250px;
- }
- 
- .discover-img {
-   margin-top: 300px;
- }
+.img6 {
+  height: 1000px;
+  width: 950px;
+  margin-left: 250px;
+}
 
- .footer-design {
-   width: 100%;
-   background-color: #606a6e;
-   color: white;
-   text-align: center;
-   padding: 40px;
-   width: 82%;
-   border-radius: 25px;
-   margin-left: -20px;
- }
+.discover-img {
+  margin-top: 300px;
+}
 
- .temp7-para {
-  letter-spacing: 10px; 
+.footer-design {
+  width: 100%;
+  background-color: #606a6e;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  width: 82%;
+  border-radius: 25px;
+  margin-left: -20px;
+}
 
- }
+.temp7-para {
+  letter-spacing: 10px;
+}
 
- .footer2-design {
+.footer2-design {
   margin-top: 80px;
   margin-bottom: 80px;
   margin-left: 400px;
@@ -268,8 +259,7 @@ a:hover {
 }
 
 .temp8-para {
- letter-spacing: 10px; 
-
+  letter-spacing: 10px;
 }
 
 .footer3-design {
@@ -284,9 +274,8 @@ a:hover {
 }
 
 .temp9-para {
- letter-spacing: 10px; 
+  letter-spacing: 10px;
 }
-
 
 .footer4-design {
   margin-top: 80px;
@@ -312,10 +301,10 @@ a:hover {
 }
 
 .temp10-para {
- letter-spacing: 10px; 
+  letter-spacing: 10px;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 12px;
 }
 
@@ -325,4 +314,4 @@ a:hover {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-};; 
+} ;
